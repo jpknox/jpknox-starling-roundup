@@ -1,0 +1,8 @@
+package jpknox.starling.roundup.dto.api.rest.savings.goal.response;
+
+import java.util.UUID;
+
+public record CreateOrUpdateSavingsGoalResponse(
+        UUID savingsGoalUid,
+        Boolean success) {
+}
